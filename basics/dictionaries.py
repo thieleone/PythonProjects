@@ -19,3 +19,23 @@ def sort(list):
 
 
 print(sort([5,4,3,2,1]))
+
+def lists(a,b):
+	c=a[1:]
+	print('1 2 3 4 5')
+	print(c)
+	c=a[:2]
+	print('0 1')
+	print(c)
+	c=a[1:4]
+	print('1 2 3')
+	print(c)
+	c=a[:3]+a[3:]
+	print('0 1 2 3 4 5')
+	print(c)
+
+lists([0,1,2,3,4,5],[])
+# Works as intended.
+
+def dics(d):
+	
