@@ -10,14 +10,14 @@ git log
 
 
 git add <file>
-
+file in das staging
 
 git add -A
 alle aenderungen in das staging
 
 
 git reset <file>
-alle aenderungen werden unstaged
+file wird unstaged
 
 
 git commit -m "<commitMessage"
@@ -29,18 +29,18 @@ alle aenderungen in das repository z.B. master
 
 
 git pull origin <branch>
-alle aenderungen aus dem repository z.B. master
+entferntes repo in das lokale kopieren z.B. master
 
 
 git branch -a
 zeigt branches
 
 
-git branch <brachnName>
+git branch <branchName>
 fuegt branch hinzu
 
 
-git chekcout <branchName>
+git checkout <branchName>
 wechselt zu branch
 
 
