@@ -1,0 +1,71 @@
+
+
+ls -la
+
+
+git status
+
+
+git log
+
+
+git add <file>
+
+
+git add -A
+alle aenderungen in das staging
+
+
+git reset <file>
+alle aenderungen werden unstaged
+
+
+git commit -m "<commitMessage"
+alle addierten aenderungen committen
+
+
+git push origin <branch>
+alle aenderungen in das repository z.B. master
+
+
+git pull origin <branch>
+alle aenderungen aus dem repository z.B. master
+
+
+git branch -a
+zeigt branches
+
+
+git branch <brachnName>
+fuegt branch hinzu
+
+
+git chekcout <branchName>
+wechselt zu branch
+
+
+git remote -v
+
+
+git push -u origin <branch>
+
+
+git branch --merged
+
+
+git merge <branch>
+merged den branch in den aktuellen
+
+
+git branch -d <branch>
+loescht branch lokal
+
+
+git push origin --delete <branch>
+loescht branch im repository
+
+
+
+
+
+
