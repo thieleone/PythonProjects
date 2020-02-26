@@ -1,4 +1,4 @@
-
+#tool for calculation of required games to desired stage of marathon
 
 def marathon(stageExpList):
 	sumExp=0
