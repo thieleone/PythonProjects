@@ -65,6 +65,7 @@ git push origin --delete <branch>
 loescht branch im repository
 
 
+git reflog
 
 
 
