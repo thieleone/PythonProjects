@@ -66,6 +66,12 @@ loescht branch im repository
 
 
 git reflog
+listet alle commits auf
+
+
+git cherry-pick <hexadecimalIdentifierOfCommit>
+macht einen neuen commit mit den aenderungen aus dem benannten commit
+
 
 
 
