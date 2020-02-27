@@ -73,6 +73,12 @@ git cherry-pick <hexadecimalIdentifierOfCommit>
 macht einen neuen commit mit den aenderungen aus dem benannten commit
 
 
+git config user.email
+git config user.email <email>
 
+
+
+git config user.name
+git config user.name <name>
 
 
