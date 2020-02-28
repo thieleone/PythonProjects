@@ -43,3 +43,5 @@ print(greeting_message5)
 print(help(str.replace))
 
 
+
+languages = ['Python', 'Java', 'C++']
