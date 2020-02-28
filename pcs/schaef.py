@@ -40,8 +40,12 @@ print(greeting_message5)
 
 
 #print(help(str))
-print(help(str.replace))
+#print(help(str.replace))
 
 
 
-languages = ['Python', 'Java', 'C++']
+languages = ['Python', 'Java', 'C++', 'C#']
+
+
+print(languages[:2])
+
