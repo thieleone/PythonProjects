@@ -47,11 +47,19 @@ languages = ['Python', 'Java', 'C++', 'C#']
 languagesMessage=f'Eine Auflistung von Programmiersprachen:\n1. {languages[0]}\n2. {languages[1]}\n3. {languages[2]}\n4. {languages[3]}'
 
 
+def listMessage(list):
+	counter=1
+	for i in list:
+		print(str(counter)+'. '+i)
+		counter=counter+1
+
+
 # print(languages[:2])
 # print(languages[2:])
 # print(languages[1:3])
 
-print (languagesMessage)
+listMessage(languages)
+print(languagesMessage)
 
 
 
