@@ -43,9 +43,9 @@ print(greeting_message5)
 #print(help(str.replace))
 
 
-
 languages = ['Python', 'Java', 'C++', 'C#']
 
 
 print(languages[:2])
-
+print(languages[2:])
+print(languages[1:3])
